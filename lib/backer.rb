@@ -9,8 +9,8 @@ class Backer
     @backed_projects = []
   end
   
-  def back_project(project, name)
-    @backed_projects << Project.new(project, name)
+  def back_project(project)
+    @backed_projects << Project.new(project)
      
     #binding.pry
   end
